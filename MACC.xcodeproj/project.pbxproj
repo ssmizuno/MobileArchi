@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F565C18614904F1C0064948D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565C18514904F1C0064948D /* UIKit.framework */; };
+		F565C18814904F1C0064948D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565C18714904F1C0064948D /* Foundation.framework */; };
+		F565C18A14904F1C0064948D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565C18914904F1C0064948D /* CoreGraphics.framework */; };
+		F565C19014904F1C0064948D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F565C18E14904F1C0064948D /* InfoPlist.strings */; };
+		F565C19214904F1C0064948D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C19114904F1C0064948D /* main.m */; };
+		F565C19614904F1C0064948D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C19514904F1C0064948D /* AppDelegate.m */; };
+		F565C19914904F1C0064948D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C19814904F1C0064948D /* MainViewController.m */; };
+		F565C1A5149052430064948D /* bg_tile@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F565C1A4149052430064948D /* bg_tile@2x.jpg */; };
+		F565C1A81490543E0064948D /* ChairsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1A71490543E0064948D /* ChairsCollectionViewController.m */; };
+		F565C1AA149057870064948D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F565C1A9149057870064948D /* QuartzCore.framework */; };
+		F565C1AC149057C70064948D /* NavigationBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F565C1AB149057C70064948D /* NavigationBar@2x.png */; };
+		F565C1AE14905C2B0064948D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F565C1AD14905C2B0064948D /* libxml2.dylib */; };
+		F565C1BF14905CFD0064948D /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1B214905CFD0064948D /* DDXMLElementAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F565C1C014905CFD0064948D /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1B514905CFD0064948D /* NSString+DDXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F565C1C114905CFD0064948D /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1B814905CFD0064948D /* DDXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F565C1C214905CFD0064948D /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1BA14905CFD0064948D /* DDXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F565C1C314905CFD0064948D /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1BC14905CFD0064948D /* DDXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F565C1C814905E680064948D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F565C1C514905E680064948D /* SVProgressHUD.bundle */; };
+		F565C1C914905E680064948D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F565C1C714905E680064948D /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F565C18114904F1C0064948D /* MACC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F565C18514904F1C0064948D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F565C18714904F1C0064948D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F565C18914904F1C0064948D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F565C18D14904F1C0064948D /* MACC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MACC-Info.plist"; sourceTree = "<group>"; };
+		F565C18F14904F1C0064948D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F565C19114904F1C0064948D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F565C19314904F1C0064948D /* MACC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MACC-Prefix.pch"; sourceTree = "<group>"; };
+		F565C19414904F1C0064948D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F565C19514904F1C0064948D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F565C19714904F1C0064948D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F565C19814904F1C0064948D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F565C1A4149052430064948D /* bg_tile@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_tile@2x.jpg"; sourceTree = "<group>"; };
+		F565C1A61490543E0064948D /* ChairsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChairsCollectionViewController.h; sourceTree = "<group>"; };
+		F565C1A71490543E0064948D /* ChairsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChairsCollectionViewController.m; sourceTree = "<group>"; };
+		F565C1A9149057870064948D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F565C1AB149057C70064948D /* NavigationBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar@2x.png"; sourceTree = "<group>"; };
+		F565C1AD14905C2B0064948D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F565C1B114905CFD0064948D /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		F565C1B214905CFD0064948D /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		F565C1B414905CFD0064948D /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		F565C1B514905CFD0064948D /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		F565C1B614905CFD0064948D /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		F565C1B714905CFD0064948D /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		F565C1B814905CFD0064948D /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		F565C1B914905CFD0064948D /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		F565C1BA14905CFD0064948D /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		F565C1BB14905CFD0064948D /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		F565C1BC14905CFD0064948D /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		F565C1BE14905CFD0064948D /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		F565C1C514905E680064948D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F565C1C614905E680064948D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		F565C1C714905E680064948D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F565C17E14904F1C0064948D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565C1AE14905C2B0064948D /* libxml2.dylib in Frameworks */,
+				F565C1AA149057870064948D /* QuartzCore.framework in Frameworks */,
+				F565C18614904F1C0064948D /* UIKit.framework in Frameworks */,
+				F565C18814904F1C0064948D /* Foundation.framework in Frameworks */,
+				F565C18A14904F1C0064948D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F565C17614904F1C0064948D = {
+			isa = PBXGroup;
+			children = (
+				F565C18B14904F1C0064948D /* MACC */,
+				F565C18414904F1C0064948D /* Frameworks */,
+				F565C18214904F1C0064948D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F565C18214904F1C0064948D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F565C18114904F1C0064948D /* MACC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F565C18414904F1C0064948D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1AD14905C2B0064948D /* libxml2.dylib */,
+				F565C1A9149057870064948D /* QuartzCore.framework */,
+				F565C18514904F1C0064948D /* UIKit.framework */,
+				F565C18714904F1C0064948D /* Foundation.framework */,
+				F565C18914904F1C0064948D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F565C18B14904F1C0064948D /* MACC */ = {
+			isa = PBXGroup;
+			children = (
+				F565C19414904F1C0064948D /* AppDelegate.h */,
+				F565C19514904F1C0064948D /* AppDelegate.m */,
+				F565C19714904F1C0064948D /* MainViewController.h */,
+				F565C19814904F1C0064948D /* MainViewController.m */,
+				F565C1A61490543E0064948D /* ChairsCollectionViewController.h */,
+				F565C1A71490543E0064948D /* ChairsCollectionViewController.m */,
+				F565C1CA14905E810064948D /* Library */,
+				F565C1A31490521F0064948D /* resources */,
+				F565C18C14904F1C0064948D /* Supporting Files */,
+			);
+			path = MACC;
+			sourceTree = "<group>";
+		};
+		F565C18C14904F1C0064948D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F565C18D14904F1C0064948D /* MACC-Info.plist */,
+				F565C18E14904F1C0064948D /* InfoPlist.strings */,
+				F565C19114904F1C0064948D /* main.m */,
+				F565C19314904F1C0064948D /* MACC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F565C1A31490521F0064948D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1AB149057C70064948D /* NavigationBar@2x.png */,
+				F565C1A4149052430064948D /* bg_tile@2x.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		F565C1AF14905CFD0064948D /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1B014905CFD0064948D /* Additions */,
+				F565C1B314905CFD0064948D /* Categories */,
+				F565C1B614905CFD0064948D /* DDXML.h */,
+				F565C1B714905CFD0064948D /* DDXMLDocument.h */,
+				F565C1B814905CFD0064948D /* DDXMLDocument.m */,
+				F565C1B914905CFD0064948D /* DDXMLElement.h */,
+				F565C1BA14905CFD0064948D /* DDXMLElement.m */,
+				F565C1BB14905CFD0064948D /* DDXMLNode.h */,
+				F565C1BC14905CFD0064948D /* DDXMLNode.m */,
+				F565C1BD14905CFD0064948D /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		F565C1B014905CFD0064948D /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1B114905CFD0064948D /* DDXMLElementAdditions.h */,
+				F565C1B214905CFD0064948D /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		F565C1B314905CFD0064948D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1B414905CFD0064948D /* NSString+DDXML.h */,
+				F565C1B514905CFD0064948D /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F565C1BD14905CFD0064948D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1BE14905CFD0064948D /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		F565C1C414905E680064948D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1C514905E680064948D /* SVProgressHUD.bundle */,
+				F565C1C614905E680064948D /* SVProgressHUD.h */,
+				F565C1C714905E680064948D /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			path = KissXML/SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		F565C1CA14905E810064948D /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F565C1C414905E680064948D /* SVProgressHUD */,
+				F565C1AF14905CFD0064948D /* KissXML */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F565C18014904F1C0064948D /* MACC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F565C19F14904F1C0064948D /* Build configuration list for PBXNativeTarget "MACC" */;
+			buildPhases = (
+				F565C17D14904F1C0064948D /* Sources */,
+				F565C17E14904F1C0064948D /* Frameworks */,
+				F565C17F14904F1C0064948D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MACC;
+			productName = MACC;
+			productReference = F565C18114904F1C0064948D /* MACC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F565C17814904F1C0064948D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F565C17B14904F1C0064948D /* Build configuration list for PBXProject "MACC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F565C17614904F1C0064948D;
+			productRefGroup = F565C18214904F1C0064948D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F565C18014904F1C0064948D /* MACC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F565C17F14904F1C0064948D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565C19014904F1C0064948D /* InfoPlist.strings in Resources */,
+				F565C1A5149052430064948D /* bg_tile@2x.jpg in Resources */,
+				F565C1AC149057C70064948D /* NavigationBar@2x.png in Resources */,
+				F565C1C814905E680064948D /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F565C17D14904F1C0064948D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565C19214904F1C0064948D /* main.m in Sources */,
+				F565C19614904F1C0064948D /* AppDelegate.m in Sources */,
+				F565C19914904F1C0064948D /* MainViewController.m in Sources */,
+				F565C1A81490543E0064948D /* ChairsCollectionViewController.m in Sources */,
+				F565C1BF14905CFD0064948D /* DDXMLElementAdditions.m in Sources */,
+				F565C1C014905CFD0064948D /* NSString+DDXML.m in Sources */,
+				F565C1C114905CFD0064948D /* DDXMLDocument.m in Sources */,
+				F565C1C214905CFD0064948D /* DDXMLElement.m in Sources */,
+				F565C1C314905CFD0064948D /* DDXMLNode.m in Sources */,
+				F565C1C914905E680064948D /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F565C18E14904F1C0064948D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F565C18F14904F1C0064948D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F565C19D14904F1C0064948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F565C19E14904F1C0064948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F565C1A014904F1C0064948D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MACC/MACC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "MACC/MACC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F565C1A114904F1C0064948D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MACC/MACC-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "MACC/MACC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F565C17B14904F1C0064948D /* Build configuration list for PBXProject "MACC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565C19D14904F1C0064948D /* Debug */,
+				F565C19E14904F1C0064948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F565C19F14904F1C0064948D /* Build configuration list for PBXNativeTarget "MACC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565C1A014904F1C0064948D /* Debug */,
+				F565C1A114904F1C0064948D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F565C17814904F1C0064948D /* Project object */;
+}
