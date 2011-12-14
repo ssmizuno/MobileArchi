@@ -13,7 +13,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F565C18014904F1C0064948D"
+               BlueprintIdentifier = "CA19228013AEE4C300D78BC0"
+               BuildableName = "MACC_hamann.app"
+               BlueprintName = "MACC_hamann"
+               ReferencedContainer = "container:MACC_hamann.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA19228013AEE4C300D78BC0"
                BuildableName = "MACC.app"
                BlueprintName = "MACC"
                ReferencedContainer = "container:MACC.xcodeproj">
@@ -28,31 +42,20 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F565C18014904F1C0064948D"
-            BuildableName = "MACC.app"
-            BlueprintName = "MACC"
-            ReferencedContainer = "container:MACC.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
-      debugDocumentVersioning = "YES"
-      allowLocationSimulation = "YES">
+      buildConfiguration = "Debug">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F565C18014904F1C0064948D"
-            BuildableName = "MACC.app"
-            BlueprintName = "MACC"
-            ReferencedContainer = "container:MACC.xcodeproj">
+            BlueprintIdentifier = "CA19228013AEE4C300D78BC0"
+            BuildableName = "MACC_hamann.app"
+            BlueprintName = "MACC_hamann"
+            ReferencedContainer = "container:MACC_hamann.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -62,15 +65,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
-      debugDocumentVersioning = "YES">
+      buildConfiguration = "Release">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F565C18014904F1C0064948D"
-            BuildableName = "MACC.app"
-            BlueprintName = "MACC"
-            ReferencedContainer = "container:MACC.xcodeproj">
+            BlueprintIdentifier = "CA19228013AEE4C300D78BC0"
+            BuildableName = "MACC_hamann.app"
+            BlueprintName = "MACC_hamann"
+            ReferencedContainer = "container:MACC_hamann.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -78,7 +80,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "AdHoc"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

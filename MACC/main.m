@@ -2,17 +2,16 @@
 //  main.m
 //  MACC
 //
-//  Created by masashi mizuno on 11/12/08.
-//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
+//  Created by 水野 真史 on 11/06/20.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
-
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    [pool release];
+    return retVal;
 }
